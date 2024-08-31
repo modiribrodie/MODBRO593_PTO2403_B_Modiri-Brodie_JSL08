@@ -36,3 +36,4 @@
 
 
 let bankBranchInstance = null;
+class BankBranch {
