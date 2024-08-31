@@ -52,4 +52,9 @@ class BankBranch {
     {
         return this.branchInfo;
     }
+    const branchA = new BankBranch({ name: "Main Branch", location: "Johannesburg" });
+    const branchB = new BankBranch({ name: "Secondary Branch", location: "Durban" });
+
+
+     
      
