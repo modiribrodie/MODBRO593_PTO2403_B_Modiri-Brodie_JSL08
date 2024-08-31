@@ -45,4 +45,11 @@ class BankBranch {
             console.warn("An instance of BankBranch already exists. Returning the existing instance.");
             return bankBranchInstance; // Return the existing instance
         }
-    } }
+    } 
+}
+
+    getBranchInfo(); 
+    {
+        return this.branchInfo;
+    }
+     
