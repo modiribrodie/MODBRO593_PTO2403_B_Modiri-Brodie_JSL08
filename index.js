@@ -55,6 +55,9 @@ class BankBranch {
     const branchA = new BankBranch({ name: "Main Branch", location: "Johannesburg" });
     const branchB = new BankBranch({ name: "Secondary Branch", location: "Durban" });
 
-
+    console.log(branchA.getBranchInfo()); // { name: "Main Branch", location: "Johannesburg" }
+    console.log(branchB.getBranchInfo()); // { name: "Main Branch", location: "Johannesburg" }
+    console.log(branchA === branchB); // true
+    
      
      
