@@ -17,7 +17,7 @@ body {
 /* Style the h1 element */
 h1 {
     background: white;
-    -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
     font-weight: bold;
     font-size: 2rem;
