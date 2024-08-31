@@ -37,3 +37,12 @@
 
 let bankBranchInstance = null;
 class BankBranch {
+    constructor(branchInfo) {
+        if (!bankBranchInstance) {
+            bankBranchInstance = this;
+            this.branchInfo = branchInfo;
+        } else {
+            console.warn("An instance of BankBranch already exists. Returning the existing instance.");
+            return bankBranchInstance; // Return the existing instance
+        }
+    } }
